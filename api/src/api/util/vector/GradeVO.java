@@ -73,8 +73,8 @@ public class GradeVO {
 
 	@Override
 	public String toString() {
-		return "성적표 [학번=" + hak + ", 이름=" + name + ", 국어(kor)=" + kor
-				+ ", 영어(eng)=" + eng + ", 수학(math)=" + math + "]";
+		return " 성적표 [학번=" + hak + ", 이름=" + name + ", 국어(kor)=" + kor
+				+ ", 영어(eng)=" + eng + ", 수학(math)=" + math + ", 총점 : " +this.getTotal()+ "]"+"\n";
 	}
 	
 	

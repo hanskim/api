@@ -7,7 +7,7 @@ public interface GrandeService {
 
 	public void Input(GradeVO vo);  // 클래스를 파라미터로 투입 ?
 
-	public void Print();
+	public void Print();   
 
 	public String SearchGradeByHak(String hak);
 
