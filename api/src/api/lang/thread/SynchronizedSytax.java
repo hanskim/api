@@ -5,6 +5,7 @@ package api.lang.thread;
  * 해당 스레드만 제외하고 나머지는 접근하지 못하도록 막는 것
  * 이것을 lock 이라고 함
  * 자바 동기화는 synchronized 키워드를 사용
+ * 동기화 = lock
  */
 
 public class SynchronizedSytax {
